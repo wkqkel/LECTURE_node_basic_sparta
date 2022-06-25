@@ -21,5 +21,5 @@ const goodsSchema = mongoose.Schema({
     type: Number,
   },
 });
-// 첫번째 인자는 모델이름, 두번째인자는 스키마
+
 module.exports = mongoose.model("Goods", goodsSchema);
